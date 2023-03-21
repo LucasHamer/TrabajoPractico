@@ -3,45 +3,54 @@
 
 <head>
     <title>Trabajo Practico</title>
-    
+    <link rel="stylesheet" href="TrabajoPractico.css">
 </head>
 
 <body>
     <form action="TrabajoPractico.html" method="get">
         <h1>Datos</h1>
         <label>Nombre </label>
-        <input type="text" name="nombre" id="nombre">
+        <input type="text" name="nombre" id="nombre" class="datos">
         <label><br>Apellido </label>
-        <input type="text" name="apellido" id="apellido">
+        <input type="text" name="apellido" id="apellido" class="datos">
         <label><br>Edad </label>
-        <input type="number" name="edad" id="edad">
+        <input type="number" name="edad" id="edad" class="datos">
         <label><br>Dni </label>
-        <input type="number" name="dni" id="dni"> 
+        <input type="number" name="dni" id="dni" class="datos">
         <label><br>Correo Electronico </label>
-        <input type="email" name="mail" id="mail">
+        <input type="email" name="mail" id="mail" class="datos">
         <br>
         <button type="submit" name="boton">Cargar</button>
     </form>
 
     <table>
+        <caption>Tabla</caption>
         <thead>
-            <th colspan="5">Tabla</th>
+            <tr>
+                <th><b>Nombre</b></th>
+                <th><b>Apellido</b></th>
+                <th><b>Edad</b></th>
+                <th><b>Dni</b></th>
+                <th><b>Correo electrónico</b></th>
+            </tr>
         </thead>
         <tbody>
             <tr>
-                <td><b>Nombre</b></td>
-                <td><b>Apellido</b></td>
-                <td><b>Edad</b></td>
-                <td><b>Dni</b></td>
-                <td><b>Correo electrónico</b></td>
+                <td id="nom"></td>
+                <td id="ape"></td>
+                <td id="eda"></td>
+                <td id="dn"></td>
+                <td id="correo"></td>
             </tr>
         </tbody>
     </table>
-    
+
     <script src="TrabajoPractico.js"></script>
 
+    <p>
+        <a href="autores.html">Autores</a>
+    </p>
 </body>
-
 </html>
 <!-- 
     Grupo 10: Tiziana Parrella, Graciela T, Farah Herm, Gianluca Pate, Lucero Lucas 
@@ -49,7 +58,7 @@
 <!--
     Mails:
     hermfarah@gmail.com
-    gpate@fi.uba.ar grupo 10
+    gpate@fi.uba.ar 
     lucaslucero22003@gmail.com
     gra.tob@gmail.com
     tizianaparrella1@gmail.com

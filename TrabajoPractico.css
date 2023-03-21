@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(to right, rgb(169, 0, 0), black);
+}
+
+form {
+    text-align: center;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    margin: 100px 35pc 100px 35pc;
+    padding-bottom: 150px;
+    padding-top: 30px;
+    box-shadow: 10px 10px rgb(32, 32, 32);
+}
+
+form label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: gray;
+
+}
+
+button {
+    color: white;
+    background-color: red;
+    margin-top: 50px;
+    padding: 10px 100px;
+    border-radius: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+form input {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.datos {
+    margin-bottom: 50px;
+}
+
+table caption {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+table {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 90%;
+    table-layout:fixed;
+    border-collapse: separate;
+    margin-left: 100px;
+    border-spacing: 2px;
+}
+
+table th {
+    padding: 10px;
+    margin: 100px 35pc 100px 35pc;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    width: 150px;
+}
+
+table td {
+    padding: 10px;
+    margin: 100px 35pc 100px 35pc;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    width: 150px;
+}
